@@ -22,3 +22,4 @@ const splitTotal = document.getElementById('split-total');
 const resetBtn = document.getElementById('reset');
 
 // ** Your work goes below here
+function billPP (numberOfPpl)
