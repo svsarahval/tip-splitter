@@ -31,6 +31,7 @@
 
    <div class="label">
     <label for="select-gratuity">Select Tip %</label>
+   </div>
     <div class="btn container">
      <button class="gratutity">5%</button>
      <button class="gratutity">10%</button>
@@ -43,9 +44,25 @@
      id="custom-gratutity"
      value="">
     </div>
-   </div>
-  </section>
 
- </main>
-</body>
+    <div class="label">Number of People</div>
+    <div class="input-container">
+     <input type="number" placeholder="0" name="people" id="people">
+     <img src="/images/icon-person.svg" alt="person icon">
+    </div>
+   </section>
+    <section class="output-container">
+     <div class="outputs"></div>
+     <div class="output">
+      <p>
+       Tip Amount <br>
+       <span>/ person</span>
+      </p>
+      <div id="split-total" class="output-value">$0.00
+      </div>
+     </div>
+     <button id="reset">RESET</button>
+   </section>
+  </main>
+ </body>
 </html>
